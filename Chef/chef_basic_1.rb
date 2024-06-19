@@ -23,7 +23,8 @@ service 'httpd' do
   action [:enable, :start]
 end
 
-
+#Finally to run the code use this command
+# -> chef-client -zr "recipe[test-cb::test-rc]"
   
   
   
