@@ -24,3 +24,22 @@ Now to install Chef, version may differ
 ```bash
   yum install chef-workstation-0.4.2-1.e16.x86 64.rpm -y
 ```
+
+## OHAI Commands
+
+To see all the Specifications, Configuration or data of a node
+```bash
+  ohai
+```
+To check ip address of a node using ohai
+```bash
+  ohai ipaddress
+```
+To check memory/total of a node using ohai
+```bash
+  ohai memory/total
+```
+To check cpu of a node 
+```bash
+  ohai cpu/0/mhz
+```
